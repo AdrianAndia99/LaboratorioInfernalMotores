@@ -1,18 +1,28 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-
 public class PlayerColorShapeController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    private SpriteRenderer spriteRenderer;
+
+    private void Start()
     {
-        
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        ColorObject.OnChangeColor += UpdateColor;
+        ShapeObject.OnChangeShape += UpdateShape;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void UpdateColor(Color newColor)
     {
-        
+        spriteRenderer.color = newColor;
+    }
+
+    private void UpdateShape(Sprite newShape)
+    {
+        spriteRenderer.sprite = newShape;
+    }
+
+    private void OnDestroy()
+    {
+        ColorObject.OnChangeColor -= UpdateColor;
+        ShapeObject.OnChangeShape -= UpdateShape;
     }
 }
