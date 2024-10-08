@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 07f2585963b7c454da10e729f4d0d0b9, type: 3}
-  m_Name: EnemyColor1
+  m_Name: Color9
   m_EditorClassIdentifier: 
-  color: {r: 0, g: 1, b: 1, a: 1}
+  color: {r: 0.59607846, g: 0.59607846, b: 0.59607846, a: 1}

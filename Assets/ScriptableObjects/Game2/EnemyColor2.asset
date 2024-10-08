@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07f2585963b7c454da10e729f4d0d0b9, type: 3}
   m_Name: EnemyColor2
   m_EditorClassIdentifier: 
-  color: {r: 0.50980395, g: 0.6313726, b: 0.69411767, a: 1}
+  color: {r: 0.59607846, g: 0.59607846, b: 0.59607846, a: 1}
