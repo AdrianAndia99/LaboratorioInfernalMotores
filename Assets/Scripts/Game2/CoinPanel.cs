@@ -8,7 +8,7 @@ public class CoinPanel : MonoBehaviour
 
     private void OnEnable()
     {
-        GameManager.Instance.OnCoinUpdate += OnCoinUpdate;       
+        GameManager.Instance.OnCoinUpdate += OnCoinUpdate;
     }
 
     private void OnDisable()
