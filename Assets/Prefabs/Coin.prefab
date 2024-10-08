@@ -120,3 +120,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4179068310b92fd4bac9e91e43c3d71f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AngleRotations: {x: 50, y: 0, z: 50}
